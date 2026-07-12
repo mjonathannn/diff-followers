@@ -13,7 +13,6 @@ interface FileState {
 interface CompareResult {
   unfollowed: string[]
   newFollowers: string[]
-  totalOld: number
   totalNew: number
 }
 
@@ -139,7 +138,6 @@ function App() {
     setResults({
       unfollowed,
       newFollowers,
-      totalOld: oldSet.size,
       totalNew: newSet.size,
     })
     setStatus({
