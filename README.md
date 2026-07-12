@@ -2,6 +2,8 @@
 
 Ferramenta web para descobrir quem deixou de te seguir no Instagram, comparando dois arquivos `followers_1.html` exportados em datas diferentes. Todo o processamento acontece no navegador — nenhum dado é enviado a um servidor.
 
+**Deploy:** [diff-followers.netlify.app](https://diff-followers.netlify.app/)
+
 ## Como usar
 
 1. No Instagram, exporte seus seguidores em **Configurações → Sua atividade → Baixar suas informações** (formato HTML).
